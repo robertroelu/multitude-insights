@@ -53,6 +53,7 @@
   },
   "dependencies": {
     "@finsweet/attributes-linkblockedit": "^1.5.0",
+    "@finsweet/attributes-scrolldisable": "^1.6.2",
     "@finsweet/ts-utils": "^0.40.0",
     "gsap": "^3.12.5",
     "swiper": "^11.0.5"
