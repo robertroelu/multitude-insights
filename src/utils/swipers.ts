@@ -29,5 +29,4 @@ export const swipers = () => {
       clickable: true,
     },
   });
-  console.log('ide');
 };
