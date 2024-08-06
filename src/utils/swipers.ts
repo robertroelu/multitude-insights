@@ -18,6 +18,7 @@ export const swipers = () => {
     speed: 500,
     slidesPerView: 1,
     allowTouchMove: true,
+    rewind: true,
     navigation: {
       nextEl: elNext,
       prevEl: elPrev,
