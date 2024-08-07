@@ -11,6 +11,7 @@ import { nestedElement } from './nest/nestElement';
 //Utils
 import { swipers } from '$utils/swipers';
 import { socialShare } from '$utils/social-share';
+import { calendly } from '$utils/calendly';
 
 window.Webflow ||= [];
 window.Webflow.push(() => {
@@ -20,4 +21,5 @@ window.Webflow.push(() => {
   socialShare();
   modal();
   swipers();
+  calendly();
 });
