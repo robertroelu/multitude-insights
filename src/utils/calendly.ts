@@ -3,7 +3,6 @@ export const calendly = () => {
   if (!calButton) return;
   calButton.forEach((el) => {
     el.addEventListener('click', () => {
-      console.log('test');
       Calendly.initPopupWidget({ url: 'https://calendly.com/joeryanbltn' });
       return false;
     });
