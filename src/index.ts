@@ -12,6 +12,7 @@ import { nestedElement } from './nest/nestElement';
 import { swipers } from '$utils/swipers';
 import { socialShare } from '$utils/social-share';
 import { calendly } from '$utils/calendly';
+import { createdBy } from '$utils/createdBy';
 
 window.Webflow ||= [];
 window.Webflow.push(() => {
@@ -22,4 +23,5 @@ window.Webflow.push(() => {
   modal();
   swipers();
   calendly();
+  createdBy();
 });
